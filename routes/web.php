@@ -25,6 +25,10 @@ Route::get('/uomo', function (){
         return view('uomo');
 })->name('uomo');
 
-Route::get('/bambino', function (){
-    return view('bambino');
-})->name('bambino');
+
+Route::get('/prodotti', function () {
+    $prodotti = config("db.products");
+    //debug
+    // dd($prodotti);
+    return view('prodotti', compact('prodotti'));
+})->name("prodotti");

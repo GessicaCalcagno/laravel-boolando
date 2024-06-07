@@ -5,9 +5,9 @@
     <nav class="header">
         <div class="container d-flex justify-content-between gap-3">
         <ul class="d-flex justify-content-center gap-3">
+            <li> <a class="white" href="{{ route("prodotti")}}">Prodotti</a></li>
             <li> <a class="white" href="{{ route("donna")}}">Donna </a></li>
             <li> <a class="white" href="{{ route("uomo")}}">Uomo </a></li>
-            <li> <a class="white" href="{{ route("bambino")}}">Bambino </a></li>
         </ul>
         <!-- LISTA -->
 
