@@ -13,7 +13,9 @@
 
         <!-- LOGO -->
         <div class="logo-boolean">
-            <img src="{{ Vite::asset('resources/img/boolean-logo.png') }}" alt="Logo Boolando">
+            <a class="white" href="{{ route("home")}}">
+                <img src="{{ Vite::asset('resources/img/boolean-logo.png') }}" alt="Logo Boolando">
+            </a>
         </div>
         <!-- LOGO -->
 

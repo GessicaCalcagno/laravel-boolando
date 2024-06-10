@@ -13,7 +13,9 @@
 
 <body>
   <main>
+    {{-- dot notation, con include prendiamo 'cose' statiche --}}
     @include('partials.header')
+    {{-- è un segna posto, e qui ogni pagina avrà un contenuto diverso --}}
     @yield('content')
   </main>
 

@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name("home");
 
 Route::get('/donna', function () {
     return view('donna');
@@ -31,4 +31,5 @@ Route::get('/prodotti', function () {
     //debug
     // dd($prodotti);
     return view('prodotti', compact('prodotti'));
+    //è l'atichetta/nome delle rotte
 })->name("prodotti");

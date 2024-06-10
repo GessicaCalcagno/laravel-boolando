@@ -1,4 +1,4 @@
-@use "./partials/header" as *;
+@use "./partials/header" as *; //use devono essere messi sempre all'inizio
 @use "./partials/prodotti" as *;
 
 @import "~bootstrap/scss/bootstrap.scss";
